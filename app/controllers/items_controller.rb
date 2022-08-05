@@ -1,6 +1,5 @@
 class ItemsController < ApplicationController
 
-
     def index
         json_response(@todo.items)
     end
